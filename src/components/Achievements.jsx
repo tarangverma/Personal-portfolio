@@ -4,14 +4,14 @@ import { Trophy, GitPullRequest, Code, Award, ExternalLink } from 'lucide-react'
 const achievements = [
     {
         title: "Keptn-artifacthub",
-        links: ["#", "#", "#"],
+        links: ["https://github.com/tarangverma/artifacthub/commit/6983ca03048c54997f2b48c06b9433a0165c281f", "https://github.com/keptn-contrib/unleash-service/commit/43d554aad7cef412ad79c5767724c331eea0d3b5", "https://github.com/tarangverma/artifacthub/commit/f602cc08879b3d3336715c2bcd2f86a5c235a0dc"],
         description: "Contributor to an open-source event-driven framework for continuous delivery and automated operations.",
         icon: <GitPullRequest className="w-6 h-6 text-orange-500" />,
         type: "Open Source"
     },
     {
         title: "Kubescape",
-        links: ["#"],
+        links: ["https://github.com/kubescape/kubescape/commits?author=tarangverma"],
         description: "Contributor to an open-source security tool for Kubernetes environments.",
         icon: <GitPullRequest className="w-6 h-6 text-blue-500" />,
         type: "Open Source"
@@ -24,7 +24,7 @@ const achievements = [
     },
     {
         title: "Keptn-datadog-services",
-        links: ["#", "#", "#"],
+        links: ["https://github.com/tarangverma/datadog-service/commit/8e4ed7cb18cccdbfffae2f95d8f10d5cdbc354ea", "https://github.com/tarangverma/datadog-service/commit/07fbfdd3f5d4678cccf918260cc3981c9d21bb29", "https://github.com/tarangverma/datadog-service/commit/14aba21e48a98c92be42396828725876ef85e0d3"],
         description: "Contributor of Keptn-datadog-services a cloud-based monitoring and analytics platform that provides comprehensive visibility into the performance of various components within an IT infrastructure.",
         icon: <GitPullRequest className="w-6 h-6 text-purple-500" />,
         type: "Open Source"
