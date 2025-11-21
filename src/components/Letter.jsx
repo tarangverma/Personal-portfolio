@@ -83,7 +83,7 @@ export default function EnvelopeAnimation() {
                 ${isLetterVisible ? 'top-0 scale-100 opacity-100' : 'top-[100px] scale-90 opacity-0'}
               `}
               style={{
-                zIndex: zIndexHigh ? 40 : 10, // Switches Z-Index to pop OVER the envelope AND the overlay
+                zIndex: zIndexHigh ? 40 : 0, // Switches Z-Index to pop OVER the envelope AND the overlay
                 width: '100%',
                 maxWidth: '650px'
               }}
