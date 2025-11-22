@@ -28,12 +28,16 @@ export default function EnvelopeAnimation() {
   };
 
   return (
-    <div className="h-full w-full bg-gradient-to-b from-sky-200 via-sky-100 to-amber-50 relative overflow-y-auto font-sans text-slate-800">
+    <div className="flex h-screen w-full  flex overflow-y-auto font-sans text-slate-800">
 
       {/* --- BACKGROUND ELEMENTS --- */}
       {/* Decorative Clouds - Softened */}
-      <div className="fixed top-20 right-10 w-24 h-12 bg-white blur-xl opacity-60 z-0 animate-pulse"></div>
-      <div className="fixed top-40 left-20 w-32 h-14 bg-white blur-xl opacity-50 z-0"></div>
+<div className="fixed top-20 right-20 w-80 h-80 rotate-10 rounded-xl animate-float
+      bg-[url('src/assets/airplane.gif')] bg-cover bg-center bg-no-repeat">
+</div>
+<div className="fixed top-80 left-20 w-80 h-80 rotate-340 bg-cover rounded-xl animate-float-delayed
+      bg-[url('src/assets/sun.gif')]">
+</div>
 
       {/* Lighthouse - Refined & Scaled Down */}
       <div className="fixed h-full w-full top-12 left-1/2 transform -translate-x-1/2 z-0 opacity-80 origin-top">
