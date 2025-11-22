@@ -115,14 +115,14 @@ export default function EnvelopeAnimation() {
 
                   <div className="bg-slate-50 p-6 rounded-lg border-l-4 border-orange-500 my-6 font-sans">
                     <p className="text-slate-600 italic font-medium leading-relaxed">
-                      "I love everything about what this organization is doing. I don't have many hobbies outside coding. I am not athletic, bad at singing, don't drink, can't dance. Building is the only thing I am good at. At this point, I want to be a part of taking something from 0 -&gt; 1 or 1 -&gt; 100. I just want to be heads down chasing that goal."
+                      "I love to explore new tools and technology. I don't have many hobbies outside coding. I am not athletic, bad at singing, don't drink, can't dance. Building is the only thing I am good at. At this point, I want to be a part of taking something from 0 -&gt; 1 or 1 -&gt; 100. I just want to be heads down chasing that goal."
                     </p>
                   </div>
 
                   <div className="text-lg leading-relaxed space-y-4 text-slate-700">
                     <p>Hi,</p>
                     <p>
-                      Really loved what you were building here and wanted to reach out to see if there were any openings for Software Engineers.
+                      Really love to build cool stuff and wanted to reach out to see if there were any openings for Software Engineers.
                     </p>
                     <p>
                       I have 1 year of relevant experience building full-stack applications primarily data-driven at <a href="https://trainingmug.com/" className="text-orange-600 hover:text-orange-700 font-medium hover:underline" target="_blank" rel="noopener noreferrer">TrainingMug</a>, <a href="https://postcare.ai/" className="text-orange-600 hover:text-orange-700 font-medium hover:underline" target="_blank" rel="noopener noreferrer">PostCare.AI</a>, and <a href="https://walkthru.so" className="text-orange-600 hover:text-orange-700 font-medium hover:underline" target="_blank" rel="noopener noreferrer">walkthru</a> as a part of their early teams where I helped scale internal micro-services to thousands of workflows and users.
