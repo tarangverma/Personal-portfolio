@@ -33,10 +33,10 @@ export default function EnvelopeAnimation() {
       {/* --- BACKGROUND ELEMENTS --- */}
       {/* Decorative Clouds - Softened */}
 <div className="fixed top-20 right-20 w-80 h-80 rotate-10 rounded-xl animate-float
-      bg-[url('src/assets/airplane.gif')] bg-cover bg-center bg-no-repeat">
+      bg-[url('airplane.gif')] bg-cover bg-center bg-no-repeat">
 </div>
 <div className="fixed top-80 left-20 w-80 h-80 rotate-340 bg-cover rounded-xl animate-float-delayed
-      bg-[url('src/assets/sun.gif')]">
+      bg-[url('sun.gif')]">
 </div>
 
       {/* Lighthouse - Refined & Scaled Down */}
