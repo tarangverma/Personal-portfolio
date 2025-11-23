@@ -4,6 +4,8 @@ import Achievements from "./Achievements";
 import Projects from "./Projects";
 import sunWebP from "../../public/sun.webp";
 import AirplaneWebP from "../../public/airplane.webp";
+import Experience from "./Experience";
+import Contact from "./Contact";
 
 export default function EnvelopeAnimation() {
   const [isOpen, setIsOpen] = useState(false);
@@ -268,13 +270,13 @@ export default function EnvelopeAnimation() {
                         HR
                       </div>
                     </div>
-                    <button className="group flex items-center gap-2 text-orange-600 font-bold hover:text-orange-700 transition-colors">
+                    <a href="#contact-section" className="group flex items-center gap-2 text-orange-600 font-bold hover:text-orange-700 transition-colors">
                       Get in Touch{" "}
                       <ChevronRight
                         size={16}
                         className="group-hover:translate-x-1 transition-transform"
                       />
-                    </button>
+                     </a> 
                   </div>
                 </div>
               </div>
@@ -418,12 +420,17 @@ export default function EnvelopeAnimation() {
               </div>
             </div>
           </div>
-
+          {/* --- Experience SECTION --- */}
+          <Experience />
           {/* --- PROJECTS SECTION --- */}
           <Projects />
 
           {/* --- ACHIEVEMENTS SECTION --- */}
           <Achievements />
+          {/* --- Contact SECTION --- */}
+          <div id="contact-section" className="w-full">
+            <Contact />
+          </div>
         </div>
       </div>
     </div>
